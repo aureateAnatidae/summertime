@@ -11,20 +11,20 @@ Use `H10:I12` for the cell range when it prompts you to provide cells to write t
 
 ## Setup
 
+```
 Prerequisites: `uv`
-See the official [installation guide](https://docs.astral.sh/uv/#installation) for your operating system.
-
----
+```
+> See the official [installation guide](https://docs.astral.sh/uv/#installation) for your operating system.
 
 1. Go to `console.cloud.google.com/projectcreate`
 2. Create your project
-3. Click on `APIs & Services`
-4. Click on `Library`
-5. Find `Google Sheets API` and enable it
-6. Return to `APIs & Services`, then click `Credentials`
-7. Click `CREATE CREDENTIALS` and select `OAuth Client ID`
-8. Select `Desktop App`
-9. Download your OAuth 2.0 Client ID by clicking the `⇓` symbol to the right of your new Client ID
-10. Move the folder to this directory's root and rename it to `credentials.json`
+3. Click on **APIs & Services**
+4. Click on **Library**
+5. Find **Google Sheets API** and enable it
+6. Return to **APIs & Services**, then click **Credentials**
+7. Click **CREATE CREDENTIALS** and select **OAuth Client ID**
+8. Select **Desktop App**
+9. Download your OAuth 2.0 Client ID by clicking the **⇓** symbol to the right of your new Client ID
+10. Move the folder to this directory's root and rename it to **credentials.json**
 11. Install script dependencies by running `uv sync --frozen`
 12. Run the script by running `uv run __main__.py`
