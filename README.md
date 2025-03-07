@@ -16,7 +16,7 @@ Here's an example of the time sheet we have:
 
 The script will read the values straight from the Google Sheets API and sum them for each member.
 
-Optionally, it writes to the sheet like this, if you provide a cell range:
+Optionally, it writes the sums for each column to the sheet like this, if you provide a cell range:
 |Member1|10:00:00|
 |---|---|
 |Member2|20:00:00|
